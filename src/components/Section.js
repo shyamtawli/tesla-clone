@@ -39,7 +39,7 @@ const Wrap = styled.div`
     background-image:${props => `url("/images/${props.bgImage}")`};
     background-size: cover;
     background-repeat:no-repeat;
-    background-position: center;
+    background-position: center center;
     display: flex;
     flex-direction: column;
     justify-content: space-between; //vertical 
@@ -49,6 +49,15 @@ const Wrap = styled.div`
 const ItemText = styled.div`
     padding-top: 15vh;
     text-align: center;
+    @media (max-width:750px){
+        font-size: 25px;
+    }
+    
+    @media (max-width:550px){
+        font-size: 15px;
+    }
+
+
 `
 
 const ButtonGroup = styled.div`
@@ -62,15 +71,23 @@ const ButtonGroup = styled.div`
 const LeftButton = styled.button`
     background-color: rgba(23,26,32,0.8);
     height: 40px;
-    width: 250px;
+
+    @media (max-width:750px) {
+        width: 450px;
+    }
+    @media (max-width:500px) {
+        width: 250px;
+    }
+    width: 280px;
     color:white;
     display:flex;
     justify-content: center;
     align-items: center;
-    border-radius: 100px;
-    opacity: 0.8;
-    text-transform: uppercase;
-    font-size: 12px;
+    border-radius: 2px;
+    border: none;
+    opacity: 0.95;
+    font-weight: 00px;
+    font-size: 14px;
     cursor: pointer;
     margin: 8px;
 `

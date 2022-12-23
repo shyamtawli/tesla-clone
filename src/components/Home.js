@@ -9,29 +9,29 @@ function Home() {
           title="Model S"
           description="Order Online for Touchless Delivery"
           backgroundImg="model-s.jpg"
-          leftbtn="Custom Order"
-          rightbtn="Existing Inventory"
+          leftbtn="Buy Now"
+          rightbtn="Custom Order"
         />
         <Section 
           title="Model Y"
           description="Order Online for Touchless Delivery"
           backgroundImg="model-y.jpg"
-          leftbtn="Custom Order"
-          rightbtn="Existing Inventory"
+          leftbtn="Buy Now"
+          rightbtn="Custom Order"
         />
         <Section 
           title="Model 3"
           description="Order Online for Touchless Delivery"
           backgroundImg="model-3.jpg"
-          leftbtn="Custom Order"
-          rightbtn="Existing Inventory"
+          leftbtn="Buy Now"
+          rightbtn="Custom Order"
         />
         <Section 
           title="Model X"
           description="Order Online for Touchless Delivery"
           backgroundImg="model-x.jpg"
-          leftbtn="Custom Order"
-          rightbtn="Existing Inventory"
+          leftbtn="Buy Now"
+          rightbtn="Custom Order"
         />
         <Section 
           title="Lowest Cost Solar Panel in America"
